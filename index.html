@@ -5,136 +5,165 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>연말 모임 안내</title>
 
-    <!-- Bootstrap CSS -->
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Pretendard -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css">
 
-    <!-- Font 적용 -->
-
+    <!-- Fonts -->
     <style>
-		@font-face {
-			font-family: 'JoyfulStory';
-			src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
-			font-weight: normal;
-			font-display: swap;
-		}
-		@font-face {
-			font-family: 'YeogiOttaeJalnan';
-			src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
-			font-weight: normal;
-			font-display: swap;
-		}
+        @font-face {
+            font-family: 'JoyfulStory';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/OTEnjoystoriesBA.woff') format('woff');
+        }
+        @font-face {
+            font-family: 'YeogiOttaeJalnan';
+            src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+        }
 
         body {
-            font-family: "Pretendard", "KoPubDotum", "KoPub Dotum", sans-serif;
-			background-color: #2f4858 !important;
+            font-family: "Pretendard", sans-serif;
+            background-color: #263747 !important;
         }
 
-		.title-text{
-			font-family: 'JoyfulStory' !important;
-			font-size: 200%;
-		}
+        .title {
+            font-family: 'JoyfulStory';
+            font-size: 2.6rem;
+            color: #fff;
+            letter-spacing: 1px;
+            margin-bottom: 1rem;
+        }
 
-		.sub-text{
-			font-family: 'YeogiOttaeJalnan' !important;
-			color: #f8711b;
-			font-size: 130%;
-			text-shadow:
-				-1px -1px 0 #FFF,
-				1px -1px 0 #FFF,
-				-1px 1px 0 #FFF,
-				1px 1px 0 #FFF;
-		}
+        .sub-title {
+            font-family: 'YeogiOttaeJalnan';
+            color: #ff8a3d;
+            font-size: 1.5rem;
+            text-shadow:
+                -2px -2px 0 #FFF,
+                 2px -2px 0 #FFF,
+                -2px  2px 0 #FFF,
+                 2px  2px 0 #FFF;
+        }
 
-		.dashed-line {
-            border-top: 1px dashed #fff;
-            width: 80%;
-            margin: 0 auto;
+        .card-box {
+            background: #ffffff;
+            border-radius: 22px;
+            padding: 25px;
+            box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .section-title {
+            font-family: 'JoyfulStory';
+            font-size: 2rem;
+            color: #fff;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+
+        .dashed {
+            border-top: 1px dashed rgba(255,255,255,0.7);
+            width: 75%;
+            margin: 2.5rem auto;
         }
     </style>
-	
+
 </head>
 <body>
 
-    <div class="container mt-5">
-		<div class='text-center align-middle p-3 text-white mt-5'>
-			<span class='fw-bolder'>사랑하는 우리 소모임 여러분,</span><br>
-			<br>
-			<small>이번 시즌에도 변함없이 열정적으로 함께해 주신 모든 분께 진심으로 감사드립니다.<br><br>때론 즐겁고 아쉬웠던 순간들을 나누며 더욱 끈끈해진 저희 모임이, 그동안의 수고를 잠시 잊고 재충전할 수 있는 설레는 겨울 여행을 마련했습니다.<br><br><br>따뜻한 공간에서 맛있는 음식과 함께<br> 잊지 못할 추억을 만들고자 합니다.</small>
-		</div>
+<div class="container mt-5 pb-5">
 
-		<div class='text-center bg-white p-3 mt-4' style='border-radius:30px; background-color: white;'>
-			<table class='mx-auto'>
-				<colgroup>
-					<col width='30%'>
-					<col width='*'>
-				</colgroup>
-				<tr>
-					<th class='text-center align-middle p-3' colspan='2'>정보</th>
-				</tr>
-				<tr>
-					<th class='text-center align-middle border-bottom pb-3'>날짜</th>
-					<td class='align-middle text-center border-bottom pb-3'>2025.12.13 - 2025.12.14</td>
-				</tr>
-				<tr>
-					<th class='text-center align-middle pb-4 pt-2'>장소</th>
-					<td class='align-middle text-center pb-4 pt-2'>리케스테이<br><small>(대전 유성구 문화원로 98 4층 401호)</small></td>
-				</tr>
-			</table>
-		</div>
-		
-		<div class="dashed-line my-4 mt-5"></div>
-
-		<div class='p-3 mt-4'>
-			<div class='text-center text-white title-text'>무엇을 하나요?</div>
-
-			<div class='mt-5'>
-				<span class='sub-text'>1. 응원가 맞추기</span>
-				<div class='p-3 mt-2 bg-white' style='border-radius:30px;'>
-					응원가 <span class='fw-bolder'>1초/3초</span> 듣고 맞추기!<br>
-					9구단 선수 10개 + 팀 1개의 응원가와 한화 응원가를 준비했습니다.<br>
-					<br>
-					🔸 맞히면 상대가 한 잔, 틀리면 우리가 한 잔<br>
-					🔹 술을 마시고 싶지 않다면, 응원가 떼창<br>
-					🔸 꼴등 팀이 <span class='text-danger'>방 청소</span><br>
-				</div>
-			</div>
-
-			<div class='mt-5'>
-				<span class='sub-text'>2. 스피드 퀴즈</span>
-				<div class='p-3 mt-2 bg-white' style='border-radius:30px;'>
-					야구 or 상식 관련하여 <span class='fw-bolder'>퀴즈</span>를 내고 서로 맞추기!<br>
-					<br>
-					🔸 상대 팀에게 낼 문제를 작성<br>
-					🔹 제한 시간 내에 문제 맞추기<br>
-					🔸 꼴등 팀이 <span class='text-danger'>다음날 아침</span> 준비<br>
-				</div>
-			</div>
-
-			<div class='mt-5'>
-				<span class='sub-text'>3. 야구선수 눈코입 퀴즈</span>
-				<div class='p-3 mt-2 bg-white' style='border-radius:30px;'>
-					<span class='fw-bolder'>눈코입</span>만 보고 <span class='fw-bolder'>누구</span>인지 맞혀보자!<br>
-					<br>
-					🔸 사회자가 지목을 해야 정답 외치기 가능<br>
-					🔹 꼴등 팀이 <span class='text-danger'>잠자리 준비</span><br>
-				</div>
-			</div>
-
-			<div class='mt-5'>
-				<span class='sub-text'>4. 야구 부루마블</span>
-				<div class='p-3 mt-2 bg-white' style='border-radius:30px;'>
-					🔸 꼴등 팀이 <span class='text-danger'>설거지</span><br>
-				</div>
-			</div>
-
-		</div>
+    <!-- Header -->
+    <div class="text-center text-white mt-5 px-3">
+        <div class="title">2024 연말 모임 초대장</div>
+        <small style="line-height: 1.7;">
+            사랑하는 우리 소모임 여러분,<br><br>
+            한 해 동안 변함없는 응원과 열정으로 함께해주신 모든 분들께 감사드립니다.<br>
+            즐거웠던 순간, 아쉬웠던 순간이 모여 우리를 더 단단하게 해주었죠.<br><br>
+            올겨울, 따뜻한 공간에서 맛있는 음식과 함께<br>
+            새로운 추억을 만드는 특별한 시간을 준비했습니다.
+        </small>
     </div>
 
-    <!-- Bootstrap JS -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Info Card -->
+    <div class="card-box text-center mt-5">
+        <table class="table mb-0">
+            <thead>
+                <tr>
+                    <th colspan="2" class="fs-5">📌 모임 정보</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th class="text-center align-middle">날짜</th>
+                    <td>2025.12.13 - 2025.12.14</td>
+                </tr>
+                <tr>
+                    <th class="text-center align-middle">장소</th>
+                    <td>
+                        리케스테이<br>
+                        <small>(대전 유성구 문화원로 98, 4층 401호)</small>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="dashed"></div>
+
+    <!-- 프로그램 -->
+    <div class="section-title text-center">무엇을 하나요?</div>
+
+    <!-- Item 1 -->
+    <div class="mt-4">
+        <div class="sub-title mb-2">1. 응원가 맞추기</div>
+        <div class="card-box">
+            응원가 <strong>1초 / 3초</strong> 듣고 맞추기!<br>
+            9구단 선수 10개 + 팀 1개 + 한화 응원가 준비!<br><br>
+
+            🔸 맞히면 상대가 한 잔<br>
+            🔹 틀리면 우리가 한 잔<br>
+            🔸 부담되면 응원가 떼창으로 패스 가능<br>
+            🔹 꼴등 팀은 <span class="text-danger fw-bold">방 청소</span>
+        </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="mt-5">
+        <div class="sub-title mb-2">2. 스피드 퀴즈</div>
+        <div class="card-box">
+            야구 또는 상식 퀴즈를 서로 내고 맞히기!<br><br>
+
+            🔸 상대 팀에게 줄 문제 직접 제작<br>
+            🔹 제한 시간 안에 맞히기<br>
+            🔸 꼴등 팀은 <span class="text-danger fw-bold">다음날 아침 준비</span>
+        </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="mt-5">
+        <div class="sub-title mb-2">3. 눈·코·입 퀴즈</div>
+        <div class="card-box">
+            선수의 <strong>눈·코·입만 보고</strong> 누구인지 맞혀보자!<br><br>
+
+            🔸 사회자 지목 후에만 정답 가능<br>
+            🔹 꼴등 팀은 <span class="text-danger fw-bold">잠자리 준비</span>
+        </div>
+    </div>
+
+    <!-- Item 4 -->
+    <div class="mt-5 mb-5">
+        <div class="sub-title mb-2">4. 야구 부루마블</div>
+        <div class="card-box">
+            🔸 꼴등 팀은 <span class="text-danger fw-bold">설거지 담당</span>
+        </div>
+    </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
